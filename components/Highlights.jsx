@@ -4,10 +4,10 @@ import Highlight from "./ui/Highlight";
 
 const Highlights = () => {
   return (
-    <seaction id="highlights">
+    <section id="highlights">
       <div className="container">
         <div className="row">
-          <h2 className="seaction__title">
+          <h2 className="section__title">
             Why choose <span className="purple">Library</span>
           </h2>
           <div className="highlight__wrapper">
@@ -29,7 +29,7 @@ const Highlights = () => {
           </div>
         </div>
       </div>
-    </seaction>
+    </section>
   );
 };
 

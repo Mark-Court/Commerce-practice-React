@@ -4,10 +4,10 @@ import Book from "./ui/Book";
 
 const Discounted = () => {
   return (
-    <seaction id="recent">
+    <section id="recent">
       <div className="container">
         <div className="row">
-          <h2 className="seaction__title">
+          <h2 className="section__title">
             Discounted <span className="purple">Books</span>
           </h2>
           <div className="books">
@@ -20,7 +20,7 @@ const Discounted = () => {
           </div>
         </div>
       </div>
-    </seaction>
+    </section>
   );
 };
 
